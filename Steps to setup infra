@@ -1,0 +1,12 @@
+Kotak cherry devops project  Steps followed 
+
+
+
+Step 1) Created ec2 instance to host git local repository, Terraform, Docker and kubernetes and helm. (warning ec2 instance is on public ip)
+Step 2) pushed  node js code from git to github
+step 3) created docker image of my node js code as kotak-cherry-app
+step 4) brought container up  and mapped to port 8080 of ec2 instance to container
+step 5) could access the kotak-cherry-app cotainer from public ip of ec2 instance 
+step 5) Then did setup of eks using terrform by creating terraform files
+step 6) i have created eks cluster successfully but there is error in bringing pods up 
+step 7) so i have attached nlb to public ip of ec2 and port mapping is done with docker container where application is running.
