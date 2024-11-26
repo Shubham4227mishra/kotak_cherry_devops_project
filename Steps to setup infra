@@ -9,4 +9,4 @@ step 4) brought container up  and mapped to port 8080 of ec2 instance to contain
 step 5) could access the kotak-cherry-app cotainer from public ip of ec2 instance 
 step 5) Then did setup of eks using terrform by creating terraform files
 step 6) i have created eks cluster successfully but there is error in bringing pods up 
-step 7) so i have attached nlb to public ip of ec2 and port mapping is done with docker container where application is running.
+step 7) I have done port  mapping with ec2 and   docker container on port 8080 where application is running.
